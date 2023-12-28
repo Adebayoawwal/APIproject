@@ -29,6 +29,7 @@
     <Folder Include="Solution.DataService\bin\Release\net7.0\" />
     <Folder Include="Solution.DataService\obj\Release\net7.0\refint\" />
     <Folder Include="Solution.DataService\obj\Release\net7.0\ref\" />
+    <Folder Include="Solution.DataService\Repositries\Interface\" />
     <Folder Include="Solution.Enitities\bin\Release\net7.0\" />
     <Folder Include="Solution.Enitities\obj\Release\net7.0\refint\" />
     <Folder Include="Solution.Enitities\obj\Release\net7.0\ref\" />
