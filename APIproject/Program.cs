@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using Solution.DataService.Data;
+
 namespace APIproject
 {
     public class Program
@@ -8,6 +11,8 @@ namespace APIproject
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            var ConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+            builder.Services.AddDbContext<AppdbContext>(options => options.UseSqlite(ConnectionString));
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

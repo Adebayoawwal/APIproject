@@ -13,10 +13,17 @@ namespace Solution.DataService.Data
 
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnModelCreating(ModelBuilder optionsBuilder)
         {
-            base.OnConfiguring(optionsBuilder);
-
+            base.OnModelCreating(optionsBuilder);
+            optionsBuilder.Entity<Achievement>(entity =>
+            {
+                entity.HasOne(d => d.Driver)
+                .WithMany(p => p.Achievements)
+                .HasForeignKey(d => d.DriverId)
+                .OnDelete(DeleteBehavior.NoAction)
+                .HasConstraintName("FX_Achievements_Driver");
+            });
         }
 
 
