@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
     <None Include="Solution.DataService\Solution.DataService.csproj" />
     <None Include="Solution.Enitities\Solution.Enitities.csproj" />
   </ItemGroup>
@@ -29,7 +30,6 @@
     <Folder Include="Solution.DataService\bin\Release\net7.0\" />
     <Folder Include="Solution.DataService\obj\Release\net7.0\refint\" />
     <Folder Include="Solution.DataService\obj\Release\net7.0\ref\" />
-    <Folder Include="Solution.DataService\Repositries\Interface\" />
     <Folder Include="Solution.Enitities\bin\Release\net7.0\" />
     <Folder Include="Solution.Enitities\obj\Release\net7.0\refint\" />
     <Folder Include="Solution.Enitities\obj\Release\net7.0\ref\" />
