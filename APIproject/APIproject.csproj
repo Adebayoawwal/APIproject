@@ -13,6 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
       <PrivateAssets>all</PrivateAssets>
@@ -31,6 +33,7 @@
     <Folder Include="Solution.DataService\obj\Release\net7.0\refint\" />
     <Folder Include="Solution.DataService\obj\Release\net7.0\ref\" />
     <Folder Include="Solution.Enitities\bin\Release\net7.0\" />
+    <Folder Include="Solution.Enitities\Dto\Repositries\" />
     <Folder Include="Solution.Enitities\obj\Release\net7.0\refint\" />
     <Folder Include="Solution.Enitities\obj\Release\net7.0\ref\" />
   </ItemGroup>
