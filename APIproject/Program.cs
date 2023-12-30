@@ -1,4 +1,6 @@
 
+using APIproject.Solution.DataService.repositries;
+using APIproject.Solution.DataService.Repositries.Interface;
 using Microsoft.EntityFrameworkCore;
 using Solution.DataService.Data;
 
@@ -18,6 +20,8 @@ namespace APIproject
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
 
             var app = builder.Build();
 
