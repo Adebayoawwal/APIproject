@@ -1,6 +1,6 @@
 ﻿namespace APIproject.Solution.Enitities.Dto.Requests
 {
-    public class CreateDriverAchievement
+    public class UpdateDriverAchievementRequest
     {
         public int Wins { get; set; }
         public int PolePosition { get; set; }

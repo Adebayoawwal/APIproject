@@ -1,8 +1,8 @@
-﻿namespace APIproject.Solution.Enitities.Dto.Requests
+﻿namespace APIproject.Solution.Enitities.Dto.Responses
 {
-    public class CreateDriverAchievement
+    public class DriverAchievementResponse
     {
-        public int Wins { get; set; }
+        public int RaceWins { get; set; }
         public int PolePosition { get; set; }
         public int FastestLap { get; set; }
         public int WorldChampionship { get; set; }
