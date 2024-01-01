@@ -26,6 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Controllers\" />
     <Folder Include="Solution.DataService\bin\Release\net7.0\" />
     <Folder Include="Solution.DataService\obj\Release\net7.0\refint\" />
     <Folder Include="Solution.DataService\obj\Release\net7.0\ref\" />
