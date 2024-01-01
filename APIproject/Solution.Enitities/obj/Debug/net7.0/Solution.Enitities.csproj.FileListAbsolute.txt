@@ -1,0 +1,12 @@
+C:\Users\USER\Videos\Documents\app\sampleAPI\Solution.Enitities\bin\Debug\net7.0\Solution.Enitities.deps.json
+C:\Users\USER\Videos\Documents\app\sampleAPI\Solution.Enitities\bin\Debug\net7.0\Solution.Enitities.dll
+C:\Users\USER\Videos\Documents\app\sampleAPI\Solution.Enitities\bin\Debug\net7.0\Solution.Enitities.pdb
+C:\Users\USER\Videos\Documents\app\sampleAPI\Solution.Enitities\obj\Debug\net7.0\Solution.Enitities.csproj.AssemblyReference.cache
+C:\Users\USER\Videos\Documents\app\sampleAPI\Solution.Enitities\obj\Debug\net7.0\Solution.Enitities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Videos\Documents\app\sampleAPI\Solution.Enitities\obj\Debug\net7.0\Solution.Enitities.AssemblyInfoInputs.cache
+C:\Users\USER\Videos\Documents\app\sampleAPI\Solution.Enitities\obj\Debug\net7.0\Solution.Enitities.AssemblyInfo.cs
+C:\Users\USER\Videos\Documents\app\sampleAPI\Solution.Enitities\obj\Debug\net7.0\Solution.Enitities.csproj.CoreCompileInputs.cache
+C:\Users\USER\Videos\Documents\app\sampleAPI\Solution.Enitities\obj\Debug\net7.0\Solution.Enitities.dll
+C:\Users\USER\Videos\Documents\app\sampleAPI\Solution.Enitities\obj\Debug\net7.0\refint\Solution.Enitities.dll
+C:\Users\USER\Videos\Documents\app\sampleAPI\Solution.Enitities\obj\Debug\net7.0\Solution.Enitities.pdb
+C:\Users\USER\Videos\Documents\app\sampleAPI\Solution.Enitities\obj\Debug\net7.0\ref\Solution.Enitities.dll
