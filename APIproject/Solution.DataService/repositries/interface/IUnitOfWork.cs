@@ -7,6 +7,6 @@
 
 
 
-        Task CompleteAsync();
+        Task<bool> CompleteAsync();
   }
 }

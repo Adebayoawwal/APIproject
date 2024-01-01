@@ -1,6 +1,8 @@
-﻿namespace APIproject.MappingProfile
+﻿using AutoMapper;
+
+namespace APIproject.MappingProfile
 {
-    public class DomainToResponses
+    public class DomainToResponses:Profile
     {
     }
 }
