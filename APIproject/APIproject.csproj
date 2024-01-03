@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Solution.Enitities\Dto\Repositries\**" />
+    <Content Remove="Solution.Enitities\Dto\Repositries\**" />
+    <EmbeddedResource Remove="Solution.Enitities\Dto\Repositries\**" />
+    <None Remove="Solution.Enitities\Dto\Repositries\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
     <None Include="Solution.DataService\Solution.DataService.csproj" />
     <None Include="Solution.Enitities\Solution.Enitities.csproj" />

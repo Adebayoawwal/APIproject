@@ -1,4 +1,6 @@
 ﻿using APIproject.Solution.Enitities.Dto.Requests;
+using APIproject.Solution.Enitities.Dto.responses;
+using APIproject.Solution.Enitities.Dto.Responses;
 using AutoMapper;
 using Solution.Enitities.dbSet;
 
@@ -8,23 +10,20 @@ namespace APIproject.MappingProfile
     {
         public RequestToDomain()
         {
-            CreateMap<CreateDriverAchievement, Achievement>()
-            .ForMember(dest => dest.RaceWins,
-            opt => opt.MapFrom(src => src.Wins))
-            .ForMember(dest => dest.status,
-            opt => opt.MapFrom(src => 1))
-            .ForMember(dest => dest.AddedDate,
-            opt => opt.MapFrom(src => DateTime.UtcNow))
-             .ForMember(dest => dest.UpdatedDate,
-            opt => opt.MapFrom(src => DateTime.UtcNow));
+            CreateMap<Achievement, DriverAchievementResponse>()
+            .ForMember(dest => dest.Wins,
+            opt => opt.MapFrom(src => src.RaceWins));
 
 
-            CreateMap<UpdateDriverAchievementRequest, Achievement>()
-            .ForMember(dest => dest.RaceWins,
-            opt => opt.MapFrom(src => src.Wins))
-          
-             .ForMember(dest => dest.UpdatedDate,
-            opt => opt.MapFrom(src => DateTime.UtcNow));
+
+
+            CreateMap<Driver, GetDriverResponses>()
+                 .ForMember(dest => dest.DriverId,
+                     opt => opt.MapFrom(src => src.Id)
+
+            .ForMember(dest => dest.FullName,
+            opt => opt.MapFrom(src => src.FirstName);
+
         }
     }
 }

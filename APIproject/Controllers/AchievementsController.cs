@@ -26,7 +26,7 @@ namespace APIproject.Controllers
         }
 
         [HttpPost("")]
-        public async Task<IActionResult> AddAchievement([FromBody] CreateDriverAchievement  achievement)
+        public async Task<IActionResult> AddAchievement([FromBody]DriverAchievementResponse achievement)
         {
             if (ModelState.IsValid)
                 return BadRequest();
